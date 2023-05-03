@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.3/jquery.mCustomScrollbar.js"></script>
+    </head>
+    <body>
+
+        <div class="chat">
+            <div class="chat-title">
+                <h1>Nitesh Kumar</h1>
+                <h2>Message</h2>
+                <figure class="avatar"><img src="assets/image/icon_image.jpg" /></figure>
+            </div>
+            <div class="messages">
+                <div class="messages-content"></div>
+            </div>
+            <div class="message-box">
+                <textarea id="messagebody" class="message-input" placeholder="Type message..." onfocus="smsCount(this)" onkeyup="smsCount(this)" onchange="smsCount(this)" onkeydown="smsCount(this)"></textarea>
+                <button type="submit" class="message-submit">Send</button>
+                 <div id="showmsgcountelement" class="smscountspan">20/5</div>
+            </div>
+
+        </div>
+        <div class="bg"></div>
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/smscalculator.js"></script>
+        
+    </body>
+</html>
