@@ -29,6 +29,7 @@ function insertMessage() {
   if ($.trim(msg) == '') {
     return false;
   }
+  document.getElementById('messagebody').focus();
   if(i>0){
         if(i==1){
            username= $('.message-input').val();
